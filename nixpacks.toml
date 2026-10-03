@@ -1,6 +1,5 @@
 # ============================================================
 # BAYAN | بیان — پیکربندی ساخت خودکار روی Railway (Nixpacks)
-# این فایل کنار BAYAN-railway.zip در ریشهٔ مخزن گیت‌هاب قرار می‌گیرد.
 # ============================================================
 
 [variables]
@@ -8,7 +7,7 @@ NIXPACKS_NODE_VERSION = "22"
 NPM_CONFIG_PRODUCTION = "false"
 
 [phases.setup]
-nixPkgs = ["nodejs_20", "unzip"]
+nixPkgs = ["nodejs_22", "unzip"]
 
 [phases.build]
 cmds = [
